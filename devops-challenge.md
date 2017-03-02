@@ -20,7 +20,7 @@ You need to do the following:
 - Write the simple random integer generator
 - Write the integer average calculator
 - Write configuration and/or explain how to run it locally
-- Think about how'd you provision a set of linux machines and how'd you orchestrate, monitor and troubleshoot these services.
+- Describe how'd you provision a set of linux machines and how'd you orchestrate, monitor and troubleshoot these services.
 
 
 ### Message broker
@@ -37,7 +37,7 @@ docker run -it -p 1883:1883 --name=mosquitto  toke/mosquitto
 You need to write and run two instances of the following simple service:
 
 - every 100ms generates a random integer from 1 to 10000
-- the value gets published to some topic (or channel, depending on what you use)
+- the value gets pushed through the message broker of your choice
 
 
 ### Integer average calculator
@@ -45,7 +45,8 @@ You need to write and run two instances of the following simple service:
 And the final service you need to write and run:
 
 - subscribes to the topic where generators publish the values
-- exposes http endpoint where the average integer for the last 5 seconds could be queried
+- computes the average integer for the last 5 seconds
+- exposes an http endpoint where this computed value could be obtained via GET request
 
 At the end it should roughly look like this:
 
