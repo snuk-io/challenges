@@ -41,6 +41,7 @@ Reviewing the application we'll look at the following aspects:
 ## Links To Specific Challenges
 
 - [Software Engineer / DevOps](/devops-challenge.md)
+- [Front-end Developer](/front-end-challenge.md)
 
 
 ## Credits
