@@ -21,6 +21,7 @@ The graph always displays the values from the last hour.
 The values are to be taken from https://openweathermap.org/, please take values from Berlin.
 
 An example graph:
+
 ![Image of services](/temperature-graph.png)
 
 ### Adding new data
