@@ -1,4 +1,4 @@
-# Software Engineer / DevOps challenge
+# Front-end Developer challenge
 
 This is a challenge for the Front-end Developer at [snuk.io](http://snuk.io).
 
