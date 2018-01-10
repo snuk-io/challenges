@@ -10,8 +10,6 @@ You need to implement a web application that features following components:
 - A graph showing temperature data
 - Input of parameters that control random temperature data
 
-Please deliver us a link to the application (Rafal, do we ask them to host it online? Or provide us something we need to run locally?)
-
 ### Temperature graph
 
 The graph displays temperature data (X-axis is time, Y-axis is temperature in degrees centigrade)
@@ -43,8 +41,8 @@ These values can be changed using + and - buttons.
 
 ### Responsiveness
 
-Make the webapp response so that it works on both desktop and mobile.
+Make the webapp responsive so that it works on both desktop and mobile.
 
 ## Framework
 
-Make your life easy by using a framework such as ReactJS.
+Make your life easy by using a framework such as ReactJS or bootstrap your environment using create-react-app.
