@@ -14,9 +14,9 @@ You need to implement a web application that features following components:
 
 The graph displays temperature data (X-axis is time, Y-axis is temperature in degrees centigrade)
 
-The graph always displays the values from the last hour.
+The graph always displays the values from the last 30 minutes.
 
-The values are to be taken from https://openweathermap.org/, please take values from Berlin.
+The first value to go in the graph is the most recent outside temperature as provided by https://openweathermap.org/, please take values from Berlin.
 
 An example graph:
 
@@ -24,7 +24,7 @@ An example graph:
 
 ### Adding new data
 
-Once the graph is loaded with the data from openweathermap, more data gets generated and added.
+Once the graph is loaded with the datapoint from openweathermap, more data gets generated and added.
 A random number between a minimum and maximum temperature gets added to the graph every certain amount of seconds.
 
 The minimum and maximum temperature have a default value of respectively 10 and 30 degrees.
