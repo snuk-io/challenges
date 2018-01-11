@@ -45,4 +45,4 @@ Make the webapp responsive so that it works on both desktop and mobile.
 
 ## Framework
 
-Make your life easies by using an application framework such as ReactJS and design system such as Bootstrap your environment using create-react-app.
+Make your life easier by using an application framework such as ReactJS combined with Bootstrap, and you can set up your environment using create-react-app.
